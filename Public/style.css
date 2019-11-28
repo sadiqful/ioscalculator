@@ -18,7 +18,7 @@ body {
   font-size: 40px;
   font-family: "Courier New", Courier, monospace;
   text-align: right;
-  padding: 20px 50px;
+  padding: 20px 5px;
 }
 
 .calc-button {
@@ -44,7 +44,7 @@ body {
   width: 49.7%;
 }
 
-.tripe {
+.triple {
   width: 74.8%;
 }
 
@@ -53,11 +53,11 @@ body {
   color: white;
 }
 
-.calc-button:last-child:active {
+.calc-button:last-child:hover {
   background-color: #dfb07e;
 }
 
-.calc-button:last-child:hover {
+.calc-button:last-child:active {
   background-color: #dd8d37;
 }
 
@@ -67,6 +67,7 @@ body {
   justify-content: space-between;
   margin-bottom: 0.5%;
 }
+
 .calc-button-row:last-child {
-  padding-button: 0;
+  padding-bottom: 0;
 }
